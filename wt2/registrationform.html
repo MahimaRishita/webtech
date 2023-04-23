@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<div class="form">
+		<h2>Registration form</h2>
+		<form id="order-form">
+			<label>Name</label>
+			<input type="text" name="name" placeholder="Enter your name" required>
+
+			<label>Email</label>
+			<input type="email" name="email" placeholder="Enter your email" required>
+
+            <label>Phone number</label>
+			<input type="text" name="phn" placeholder="Enter your moblie no." required maxlength="10">
+
+            <label>Gender</label>
+			<label style="font-weight: normal;"><input type="radio" name="gen" required > male</label>
+            <label style="font-weight: normal;"><input type="radio" name="gen" required > female</label>
+            <label style="font-weight: normal;"><input type="radio" name="gen" required > other</label>
+
+            <label>Languages</label>
+			<label style="font-weight: normal;"><input type="checkbox" name="lan" required > telugu</label>
+            <label style="font-weight: normal;"><input type="checkbox" name="lan" required > hindi</label>
+            <label style="font-weight: normal;"><input type="checkbox" name="lan" required > english</label>
+
+            <label>Religion</label>
+            <select>
+                <option value="none">--none--</option>
+                <option value="hin">Hindu</option>
+                <option value="chr">christian</option>
+                <option value="mus">muslim</option>
+                <option value="mus">other</option>
+            </select>
+
+			<label>Password</label>
+			<input type="password" name="pwd" placeholder="Enter your password" required>
+			<label>Confirm Password</label>
+			<input type="password" name="cpwd" placeholder="Confirm your password" required>
+			<button type="submit">register</button>
+		</form>
+	</div>
+</body>
+</html>
