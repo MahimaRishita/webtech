@@ -1,0 +1,138 @@
+a{
+    color:white;
+}
+main{
+margin-top:200px;
+font-size:30px;
+}
+.social{
+    color:white;
+    text-decoration:none;
+}
+.form {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    font-family: inherit;
+    justify-content:center;
+
+    }
+
+    .input {
+    font-size: 15px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2), 0 .5px .5px rgba(0, 0, 0, .2);
+    outline: none;
+    }
+
+    .input:focus {
+    outline: 1.2px solid #1877f2;
+    }
+
+    #loginBtn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    align-self: center;
+    background: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    }
+
+    #loginBtn:hover {
+    background: #196fe0;
+    }
+
+    #forgotPassword {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 13px;
+    align-self: center;
+    font-weight: bold;
+    color: #1877f2;
+    }
+
+    #forgotPassword::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: .5px;
+    bottom: -25px;
+    left: 0;
+    background: #dadde1;
+    }
+
+    #forgotPassword:hover {
+    text-decoration: underline;
+    }
+
+    #createAccountBtn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    align-self: center;
+    background: #42b72a;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+
+    #createAccountBtn:hover {
+    background: #34a61d;
+    }
+    h1{
+        padding:20px;
+    }
+    .container{
+        margin:20px;
+        padding:10px;
+        top:50px;
+        display:flex;
+        justify-content:center;
+        box-shadow: 0px 5px 3px 3px rgba(0,0,0,0.4);
+        border-radius:5px;
+        width:540px;
+        align-items:center;
+
+    }
+
+    .profile{
+        margin:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        padding:10px;
+    }
+    .feed{
+        margin:10px;
+        padding:10px;
+
+    }
+    .comment{
+        box-shadow:0px 2px 2px 2px rgba(0,0,0,0.5);
+        border-radius:10px;
+        width:100%;
+        height:60px;
+        margin:5px;
+        padding:10px;
+    }
+    .photo{
+        margin:2px;
+        padding:2px;
+    }
